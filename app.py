@@ -1,9 +1,8 @@
-"""Yelp Fusion Flask Gateway 
+"""Threefive API (Yelp API Proxy)
 
-A Yelp Fusion API Gateway (25,000 calls per day) that supports default parameters
+A Yelp Fusion API Proxy for threefive (25,000 calls per day) that supports default parameters
 
 Developed by Kevin Chen
-
 """
 
 from flask import Flask, render_template, request
