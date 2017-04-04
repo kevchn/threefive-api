@@ -7,11 +7,13 @@ decorator==4.0.11
 entrypoints==0.2.2
 enum-compat==0.0.2
 eventlet==0.20.1
-Flask==0.12
+Flask==0.12.1
+Flask-Cors==3.0.2
 gevent==1.2.1
 gevent-socketio==0.3.6
 gevent-websocket==0.10.1
 greenlet==0.4.12
+gunicorn==19.7.1
 h5py==2.7.0
 html5lib==0.999999999
 ipykernel==4.5.2
@@ -25,7 +27,6 @@ jupyter==1.0.0
 jupyter-client==5.0.0
 jupyter-console==5.1.0
 jupyter-core==4.3.0
-Keras==2.0.2
 MarkupSafe==1.0
 matplotlib==2.0.0
 mistune==0.7.4
@@ -61,10 +62,8 @@ scipy==0.19.0
 simplegeneric==0.8.1
 six==1.10.0
 sklearn==0.0
-tensorflow==1.0.0
 terminado==0.6
 testpath==0.3
-Theano==0.9.0
 tornado==4.4.3
 traitlets==4.3.2
 wcwidth==0.1.7
