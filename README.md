@@ -1,17 +1,18 @@
 # Yelp Restaraunt API Proxy
-Backend API Proxy for my submission for the [MindSumo CapitalOne Restaurant Recommender challenge](https://www.mindsumo.com/contests/restaurant-api)
+Backend API Proxy for my submission for the [MindSumo CapitalOne Restaurant Challenge](https://www.mindsumo.com/contests/restaurant-api)
 
 ## Deployment
 This is deployed using nginx and wsgi on a DigitalOcean droplet (512MB ram).
 
 ## Local Deployment
 To run this locally, simply install the requirements (in a virtualenv) and then run python app.py.
-> apt-get install virtualenv
-> virtualenv venv
-> source venv/bin/activate
-> pip install -r requirements.txt
-> python app.py
-
+```
+apt-get install virtualenv
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
 This API proxy makes use of Flask-CORS, making cross-origin AJAX possible. This means that you can call this API proxy from any domain.
 
 ### /business 
